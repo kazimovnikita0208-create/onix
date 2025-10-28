@@ -45,11 +45,11 @@ export default function RoleSelectionPage() {
 
   return (
     <OnixBackground className="flex items-center justify-center p-4">
-      <div className="w-full max-w-md space-y-12">
+      <div className="w-full max-w-md space-y-16">
         {/* Header */}
         <div className="text-center">
-          <div className="flex items-center justify-center mb-8">
-            <div className="h-24 w-auto">
+          <div className="flex items-center justify-center mb-12">
+            <div className="h-32 w-auto">
               <img 
                 src="/logo.svg" 
                 alt="ONIX Boats" 
@@ -58,7 +58,7 @@ export default function RoleSelectionPage() {
             </div>
           </div>
           <div className="space-y-2">
-            <p className="text-lg font-medium" style={{ color: '#F1F5F9' }}>Система управления производством</p>
+            <p className="text-xl font-medium" style={{ color: '#F1F5F9' }}>Система управления производством</p>
           </div>
         </div>
 
