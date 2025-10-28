@@ -1,0 +1,28 @@
+{
+  "name": "onix-boats-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for Onix Boats production management system",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "boats",
+    "production",
+    "management"
+  ],
+  "author": "Onix Boats",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.15.6",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
+
+
