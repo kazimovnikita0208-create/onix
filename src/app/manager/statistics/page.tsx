@@ -165,7 +165,7 @@ export default function StatisticsPage() {
                   <ArrowLeft className="h-4 w-4" />
                 </Button>
               </Link>
-              <div className="h-8 w-auto">
+              <div className="h-10 w-auto">
                 <img 
                   src="/logo.svg" 
                   alt="ONIX Boats" 

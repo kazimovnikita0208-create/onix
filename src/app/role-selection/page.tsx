@@ -49,7 +49,7 @@ export default function RoleSelectionPage() {
         {/* Header */}
         <div className="text-center">
           <div className="flex items-center justify-center mb-8">
-            <div className="h-16 w-auto">
+            <div className="h-24 w-auto">
               <img 
                 src="/logo.svg" 
                 alt="ONIX Boats" 
