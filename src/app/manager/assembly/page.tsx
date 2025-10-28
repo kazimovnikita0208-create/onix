@@ -125,14 +125,13 @@ export default function AssemblyPage() {
                 <ArrowLeft className="h-4 w-4" />
               </Button>
             </Link>
-            <div className="h-8 w-auto">
-              <img 
-                src="/logo.svg" 
-                alt="ONIX Boats" 
-                className="h-full w-auto filter brightness-0 invert"
-                style={{ filter: 'brightness(0) invert(1)' }}
-              />
-            </div>
+              <div className="h-8 w-auto">
+                <img 
+                  src="/logo.svg" 
+                  alt="ONIX Boats" 
+                  className="h-full w-auto"
+                />
+              </div>
           </div>
         </div>
       </header>

@@ -118,8 +118,7 @@ export default function WorkerTasksPage() {
                 <img 
                   src="/logo.svg" 
                   alt="ONIX Boats" 
-                  className="h-full w-auto filter brightness-0 invert"
-                  style={{ filter: 'brightness(0) invert(1)' }}
+                  className="h-full w-auto"
                 />
               </div>
               <div>
