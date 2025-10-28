@@ -47,33 +47,33 @@ export default function ManagerPage() {
       {/* Header */}
       <header className="backdrop-blur-md border-b" style={{ backgroundColor: '#0E1A2B', borderColor: '#1F2937' }}>
         <div className="max-w-md mx-auto px-6 py-6">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-4">
-              <div className="h-8 w-auto">
-                <img 
-                  src="/logo.svg" 
-                  alt="ONIX Boats" 
-                  className="h-full w-auto"
-                />
-              </div>
+          <div className="relative flex items-center justify-center">
+            <div className="absolute left-1/2 -translate-x-1/2 h-8 w-auto">
+              <img 
+                src="/logo.svg" 
+                alt="ONIX Boats" 
+                className="h-full w-auto"
+              />
             </div>
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={handleLogout}
-              className="rounded-lg"
-              style={{ color: '#F1F5F9' }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = '#111827';
-                e.currentTarget.style.color = '#E7B652';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.backgroundColor = 'transparent';
-                e.currentTarget.style.color = '#F1F5F9';
-              }}
-            >
-              <LogOut className="h-4 w-4" />
-            </Button>
+            <div className="ml-auto">
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={handleLogout}
+                className="rounded-lg"
+                style={{ color: '#F1F5F9' }}
+                onMouseEnter={(e) => {
+                  (e.currentTarget as HTMLButtonElement).style.backgroundColor = '#111827';
+                  (e.currentTarget as HTMLButtonElement).style.color = '#E7B652';
+                }}
+                onMouseLeave={(e) => {
+                  (e.currentTarget as HTMLButtonElement).style.backgroundColor = 'transparent';
+                  (e.currentTarget as HTMLButtonElement).style.color = '#F1F5F9';
+                }}
+              >
+                <LogOut className="h-4 w-4" />
+              </Button>
+            </div>
           </div>
         </div>
       </header>

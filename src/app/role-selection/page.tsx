@@ -144,7 +144,7 @@ export default function RoleSelectionPage() {
         {/* Footer */}
         <div className="text-center space-y-2">
           <div className="w-16 h-px mx-auto" style={{ background: 'linear-gradient(to right, transparent, #1F2937, transparent)' }}></div>
-          <p className="text-xs font-medium" style={{ color: '#94A3B8' }}>© 2024 ONIX Boats. Все права защищены.</p>
+          <p className="text-xs font-medium" style={{ color: '#94A3B8' }}>© 2025 ONIX Boats. Все права защищены.</p>
         </div>
       </div>
     </OnixBackground>
