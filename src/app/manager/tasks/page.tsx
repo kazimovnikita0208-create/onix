@@ -21,7 +21,8 @@ type BoatLite = Boat
 type BlockLite = AssemblyBlock
 type TaskLite = Task
 
-const STORAGE_KEY = 'manager_tasks_state_v1'
+// Обновили ключ хранения, чтобы пользователи получили актуальные названия катеров
+const STORAGE_KEY = 'manager_tasks_state_v2'
 
 interface TasksState {
   boats: BoatLite[]

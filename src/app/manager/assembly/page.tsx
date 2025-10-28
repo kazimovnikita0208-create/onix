@@ -18,8 +18,8 @@ import Link from 'next/link'
 const mockBoats = [
   {
     id: 1,
-    name: "ONIX 850 CABIN",
-    model: "ONIX 850 CABIN",
+    name: "ONIX 680 CABIN",
+    model: "ONIX 680 CABIN",
     status: "IN_PROGRESS",
     progress: 65,
     blocks: [
@@ -51,8 +51,8 @@ const mockBoats = [
   },
   {
     id: 2,
-    name: "ONIX 12X CRUISER",
-    model: "ONIX 12X CRUISER",
+    name: "ONIX 850 CABIN",
+    model: "ONIX 850 CABIN",
     status: "PENDING",
     progress: 25,
     blocks: [
