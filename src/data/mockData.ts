@@ -5,8 +5,8 @@ import { Boat, Worker, Task, TaskType, AssemblyBlock, Stats } from '@/types';
 export const mockBoats: Boat[] = [
   {
     id: '1',
-    name: 'Sea Ray 350',
-    model: 'SR350',
+    name: 'ONIX 680 CABIN',
+    model: 'ONIX 680 CABIN',
     image: '/images/sea-ray-350.jpg',
     status: 'IN_PROGRESS',
     createdAt: new Date('2024-10-01'),
@@ -14,8 +14,8 @@ export const mockBoats: Boat[] = [
   },
   {
     id: '2',
-    name: 'Azimut 55',
-    model: 'AZ55',
+    name: 'ONIX 850 CABIN',
+    model: 'ONIX 850 CABIN',
     image: '/images/azimut-55.jpg',
     status: 'PLANNED',
     createdAt: new Date('2024-10-15'),
@@ -23,8 +23,8 @@ export const mockBoats: Boat[] = [
   },
   {
     id: '3',
-    name: 'Princess V50',
-    model: 'PV50',
+    name: 'ONIX 850 CROSS CABIN',
+    model: 'ONIX 850 CROSS CABIN',
     image: '/images/princess-v50.jpg',
     status: 'COMPLETED',
     createdAt: new Date('2024-09-01'),
@@ -32,8 +32,8 @@ export const mockBoats: Boat[] = [
   },
   {
     id: '4',
-    name: 'Sunseeker 65',
-    model: 'SS65',
+    name: 'ONIX 600S AERO',
+    model: 'ONIX 600S AERO',
     image: '/images/sunseeker-65.jpg',
     status: 'IN_PROGRESS',
     createdAt: new Date('2024-10-10'),
